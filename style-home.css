@@ -1,0 +1,43 @@
+.titulop{
+    margin: 30px;
+}
+.titulo{
+    text-align: center;
+}
+#fondo{
+    width: 80%;
+    height: 200px;
+}
+.fond{
+    width: 50%;
+    height: 250px;
+}
+
+.principal{
+    background-color:whitesmoke;
+    padding: 20px;
+}
+p{
+    text-align: center;
+}
+.tituloc{
+    color:blue;
+text-align:center;background-color:darkslategray ;
+}
+strong{
+    color: red;
+}  
+.diferencia{
+    background-color:#cccccc;
+    padding: 20px;
+}
+
+.item{
+    font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}

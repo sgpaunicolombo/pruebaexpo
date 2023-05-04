@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto-SGPA</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+        <header> 
+            <h1><img src="Sin título-4 3.png" height="200px" alt="logo del proyecto"></h1>
+            <div class="caja">
+                <nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contactenos</a></li>
+                    </ul>
+                </nav> 
+            </div>
+
+          
+        </header>
+
+    <main>
+       <form>
+            <label for="nombre-apellido">Nombre y Apellido</label>
+            <input type="text" id="nombre-apellido" class="i-padron" required>
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo"class="i-padron" required placeholder="email@dominio,com">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono"class="i-padron" required placeholder="12345678 ">
+
+            <label for="mensaje">mensaje</label>
+            <textarea id="mensaje" cols="70" rows="10"class="i-padron" required></textarea>
+
+            <fieldset>
+                <legend>¿Como le gustaria que le contactemos?</legend>
+                <label for="r-email"><input type="radio" name="contacto" value="email" id="r-email">Email</label>
+                
+                <label for="r-telefono"> <input type="radio" name="contacto" value="telefono" id="r-telefono">Telefono</label>
+               
+                <label for="r-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="r-whatsapp" checked>Whatsapp</label>
+            </fielset>
+
+            <fieldset>
+                <legend>En que horario quiere ser atendido</legend>
+                 <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>  
+            </fieldset>
+
+
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir asesorien su proyecto de investigacion?</label>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+       </form>
+
+       <table>
+        <tr>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horario</th>    
+                </tr>
+            </thead>
+          
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8:00am-16:00pm</td> 
+                </tr>
+
+                <tr>
+                    <td>Miercoles</td>
+                    <td>8:00am-16:00pm</td>
+                </tr>
+          
+                <tr>
+                    <td>Viernes</td>
+                    <td>8:00am-16:00pm</td>   
+                </tr>
+            
+            </tbody>
+
+        </tr>
+       </table>
+    </main>
+
+        <footer>
+            <img src="Sin título-4 3.png" height="200px" alt="logo del proyecto">
+            <p class="copy">&copy copiryght SGPA-2023</p>
+            
+        </footer>
+    </body>
+
+</html>        
